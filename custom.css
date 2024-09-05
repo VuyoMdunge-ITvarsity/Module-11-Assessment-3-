@@ -1,0 +1,131 @@
+/* Basic styling for carousel captions */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider { 
+    margin: 3rem 0;
+}
+
+.footer-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+    .feature-heading {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+.blog-header {
+    margin-top: 7rem;
+    max-width: 700px;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-header {
+        margin-top: 8rem;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.team-image {
+    flex: 1 1 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+/* Card deck styles */
+.card-deck .card {
+    min-width: 220px;
+}
+
+.card {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    max-height: 400px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    padding: 1rem;
+    position: relative;
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.btn-group .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+}
+
+.d-flex .btn-group {
+    margin-top: 0.5rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.active {
+    font-weight: bold;
+}
